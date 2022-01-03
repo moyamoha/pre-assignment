@@ -30,7 +30,7 @@ function App() {
       };
 
       fetchData();
-  }, []);
+  }, [fetchingData, setFetchingData]);
 
   return (
       <div className="App">
