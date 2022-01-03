@@ -1,3 +1,93 @@
 .App {
-  text-align: center;
+  background-color: #665c5c;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+#main-content {
+  padding-top: 5rem;
+  width: 90%;
+  z-index: 500;
+}
+
+#search-bar {
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+#search-input {
+  padding: 10px 10px;
+  width: 76%;
+}
+
+#search-btn {
+  padding: 10px;
+  background-color: tomato;
+  width: 20%;
+  outline: none;
+  border: 2px solid tomato;
+  transition: background-color 0.3s linear;
+  cursor: pointer;
+}
+
+#search-btn:hover {
+  background-color: white;
+}
+
+#brewery-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px 10px;
+  justify-content: space-around;
+  margin-top: 3rem;
+  padding: 5px 10px;
+}
+
+.brewery-card {
+  width: 27.5%;
+  margin-right: 2.1rem;
+  height: 250px;
+  margin-bottom: 3rem;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.brewery-card section{
+  margin: 2.5em;
+}
+
+@media (max-width: 630px) {
+
+  .App{
+    display: flex;
+    justify-content: center;
+  }
+
+  #search-bar {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  #search-btn, #search-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #search-btn {
+    box-sizing: content-box;
+  }
+
+  .brewery-card {
+    width: 100%;
+  }
+  .brewery-list {
+    display: block;
+  }
+
 }
