@@ -19,6 +19,7 @@
   padding: 16px;
   width: 50%;
   cursor: pointer;
+  border-radius: 60px;
 }
 
 .detail-btn:hover{
@@ -45,6 +46,7 @@
   background-color: white;
   margin-left: 10px;
   margin-right: 10px;
+  border-radius: 20px;
 }
 
 #detail-card section {
