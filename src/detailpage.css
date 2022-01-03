@@ -16,6 +16,9 @@
 
 .back-btn{
   border: 2px solid tomato;
+  padding: 16px;
+  width: 50%;
+  cursor: pointer;
 }
 
 .detail-btn:hover{
@@ -25,15 +28,10 @@
 .back-btn:hover {
   background-color: white;
 }
+
 #detail-box section {
   margin-left: 10px;
   margin-bottom: 1rem;
-}
-
-.back-btn {
-  padding: 16px;
-  width: 50%;
-  cursor: pointer;
 }
 
 #detail-card {
